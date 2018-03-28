@@ -1,0 +1,183 @@
+$brand: #1b4151;
+$brand-light: lighten($brand, 10%);
+$brand-alt: #107981;
+$brand-alt-light: #00aabb;
+$brand-three: #445577;
+
+$brand-highlight: #ddffff;
+$brand-white-text: #f3f3f3;
+$brand-gray: lighten(desaturate($brand, 50%), 25%);
+
+//#aadddd
+//#66cccc
+// #00aabb
+// #4499aa
+//#116688
+//#113344
+
+$brand-purple: #5c63b4;
+$brand-green: #227100;
+$max-mobile-width: 700px;
+$max-tablet-width: 900px;
+
+$sans-serif: "Khula";
+$serif: Merriweather;
+
+@import "_hugo.scss";
+@import "_layout.scss";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: $serif, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 2.2rem;
+  padding: 0 2rem;
+  color: $brand-alt;
+  font-weight: 100;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $sans-serif;
+  font-weight: 100;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: $brand-three;
+}
+h2 {
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  color: $brand-alt;
+}
+h3 {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+h4 {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+h5 {
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+h6 {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  color: $brand-alt-light;
+}
+
+h1,
+h2 {
+  a,
+  a:hover,
+  a:visited,
+  a:active {
+    color: $brand-alt;
+  }
+}
+
+blockquote {
+  background-color: $brand-highlight;
+  padding: 2rem;
+  margin: 0;
+  border-radius: 0 4px 4px 0;
+  border-left: 4px solid $brand-alt-light;
+  font-style: italic;
+  p:first-child {
+    margin-top: 0;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+  & + h2 {
+    margin-top: 2rem;
+  }
+}
+pre {
+  line-height: 1.5rem;
+  overflow-x: auto;
+  border-radius: 4px;
+}
+p code {
+  background-color: $brand-highlight;
+}
+
+.box {
+  padding: 1rem;
+}
+
+#content {
+  min-width: 0;
+  padding-top: 2rem;
+  h1 {
+    margin-top: 0;
+    text-align: center;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+article {
+  font-family: $serif;
+}
+
+.hero {
+  background-color: $brand-highlight;
+  padding: 2rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  h1 {
+    margin-top: 0;
+  }
+  @media only screen and (max-width: 800px) {
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  .headline {
+    padding: 1rem;
+  }
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid $brand;
+  }
+}
+
+@import "_blog.scss";
+@import "_schedule.scss";

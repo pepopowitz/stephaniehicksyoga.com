@@ -1,0 +1,10 @@
+extends /layout
+
+block title
+    title= title
+        |  - Stephanie Hicks Yoga
+
+block content
+    h1= title
+    h3.by-line Published #{prettyDate(date)} by Stephanie Hicks
+    article!= _layoutContent

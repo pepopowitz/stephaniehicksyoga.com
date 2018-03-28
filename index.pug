@@ -1,0 +1,34 @@
+---
+layout: layout
+title: Stephanie Hicks Yoga
+metaDescription: TODO - fill this in!
+---
+mixin date(input)
+    - var date = new Date(input)
+    - var months = [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ]
+
+    time(datetime=JSON.parse(JSON.stringify(date)))&attributes(attributes)=months[date.getMonth()] + ' ' + date.getDate() + ', ' + date.getFullYear()
+    
+h1 Upcoming Schedule
+
+div.upcoming-classes
+  each upcomingClass in classes.upcoming
+    article.upcoming-class
+      h2.day !{upcomingClass.date}
+      div.class-details
+        h3.time !{upcomingClass.time}
+        h3.location !{upcomingClass.location}
+        h3.details !{upcomingClass.details}
+
+h1 Recent Posts 
+
+each article in collections.postsReversed
+    article.content-article
+        header
+            h2
+                a(href='/' + article.url)= article.data.title
+            h3
+                +date(article.isoDate)
+            p !{article.data.snippet}
+            a(href='/' + article.url) Read about it!
+            //p #{JSON.stringify(article)}

@@ -1,0 +1,26 @@
+[
+  {
+    "location": "Optum Health, Franklin",
+    "date": "Wednesday, March 28",
+    "time": "4:45pm - 5:45pm",
+    "details": "Yoga after work"
+  },
+  {
+    "location": "Tosa Yoga",
+    "date": "Friday, March 30",
+    "time": "5:30am - 6:45am",
+    "details": "Level 2/3 Flow"
+  },
+  {
+    "location": "TNT",
+    "date": "Monday, April 9",
+    "time": "9:55am - 10:45am",
+    "details": "Yoga for athletes"
+  },
+  {
+    "location": "TNT",
+    "date": "Tuesday, March 27",
+    "time": "6:10pm - 6:55pm",
+    "details": "Yoga for athletes"
+  }
+]

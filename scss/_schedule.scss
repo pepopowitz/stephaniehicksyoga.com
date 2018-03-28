@@ -1,0 +1,48 @@
+.upcoming-classes {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+.upcoming-class {
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .time {
+    font-size: 1rem;
+  }
+  .class-details {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    h3 {
+      padding-left: 1rem;
+      background-color: $brand-three;
+      color: white;
+      font-size: 1rem;
+      border-bottom: 1px solid white;
+    }
+  }
+  @media screen and (min-width: $max-mobile-width) {
+    .class-details {
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: $max-tablet-width) {
+    .class-details {
+      display: table;
+
+      h3 {
+        display: table-cell;
+        border-right: 1px solid white;
+      }
+      .time {
+        width: 30%;
+      }
+      .location {
+        width: 40%;
+      }
+      .details {
+        width: 30%;
+      }
+    }
+  }
+}
