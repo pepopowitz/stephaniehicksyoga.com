@@ -1,23 +1,23 @@
 {
-    "name": "stephanie-hicks-yoga-dot-com",
-    "version": "1.0.0",
-    "description": "Website for Stephanie Hicks Yoga.",
-    "main": "index.js",
-    "scripts": {
-        "build": "eleventy",
-        "start":
-            "concurrently \"npm run sass\" \"eleventy --watch \" \"live-server ./_site\" -n SASS,ELEVENTY,SERVE -c bgBlue,bgGreen,bgYellow",
-        "sass": "gulp"
-    },
-    "keywords": ["Stephanie Hicks", "Yoga"],
-    "author": "Steven J Hicks",
-    "license": "ISC",
-    "devDependencies": {
-        "@11ty/eleventy": "^0.2.7",
-        "concurrently": "^3.5.1",
-        "gulp": "^3.9.1",
-        "gulp-sass": "^3.1.0",
-        "live-server": "^1.2.0",
-        "luxon": "^0.3.1"
-    }
+  "name": "stephanie-hicks-yoga-dot-com",
+  "version": "1.0.0",
+  "description": "Website for Stephanie Hicks Yoga.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./_site && gulp dist && eleventy",
+    "start":
+      "concurrently \"npm run sass\" \"eleventy --watch \" \"live-server ./_site\" -n SASS,ELEVENTY,SERVE -c bgBlue,bgGreen,bgYellow",
+    "sass": "gulp"
+  },
+  "keywords": ["Stephanie Hicks", "Yoga"],
+  "author": "Steven J Hicks",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.2.7",
+    "concurrently": "^3.5.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "live-server": "^1.2.0",
+    "luxon": "^0.3.1"
+  }
 }
