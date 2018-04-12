@@ -15,9 +15,9 @@ each article in collections.postsReversed
     article.content-article
         header
             h2
-                a(href='/' + article.url)= article.data.title
+                a(href=article.url)= article.data.title
             h3
                 +date(article.isoDate)
-            p !{article.data.snippet}
-            a(href='/' + article.url) Read about it!
+            p !{article.data.summary}
+            a(href=article.url) Read about it!
             //p #{JSON.stringify(article.data)}

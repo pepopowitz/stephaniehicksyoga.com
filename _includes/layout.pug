@@ -18,6 +18,7 @@ html(lang="en")
         link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css')
         link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Khula|Merriweather') 
         link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css') 
+        script(src='https://identity.netlify.com/v1/netlify-identity-widget.js')
 
     body
         script.
@@ -49,3 +50,13 @@ html(lang="en")
         script(src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js')
         script.
             hljs.initHighlightingOnLoad();
+        script.
+            if (window.netlifyIdentity) {
+              window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                  window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+                }
+              });
+            }
