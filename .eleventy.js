@@ -21,7 +21,7 @@ module.exports = function(eleventyConfig) {
 
   // copy over the upcoming classes json file, to be consumed as an "api" endpoint.
   eleventyConfig.addPassthroughCopy('_data/classes');
-  // eleventyConfig.addPassthroughCopy('admin');
+  eleventyConfig.addPassthroughCopy('admin');
 
   return {
     templateFormats: ['md', 'pug', 'njk', 'png', 'jpg', 'gif', 'css', 'html'],
