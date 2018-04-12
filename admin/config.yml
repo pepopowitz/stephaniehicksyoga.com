@@ -1,0 +1,64 @@
+backend:
+  name: git-gateway
+  branch: netlify-cms
+media_folder: "static/img/uploads"
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "_includes/blog.pug"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Summary - a small paragraph that shows up when this post is listed with others", name: "body", widget: "markdown"}
+  - name: "locations" # Used in routes, e.g., /admin/collections/blog
+    label: "Locations" # Used in the UI
+    folder: "_data/classes/locations" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    format: "json"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "URL", name: "url", widget: "string"}
+  - name: "weekly-classes" # Used in routes, e.g., /admin/collections/blog
+    label: "Weekly Classes" # Used in the UI
+    folder: "_data/classes/weekly" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    format: "json"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Day of Week", name: "dayOfWeek", widget: "select", options: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']}
+      - {label: "Start Date", name: "startDate", widget: "date"}
+      - {label: "End Date", name: "endDate", widget: "date", required: "false"}
+      - {label: "Start Time", name: "startTime", widget: "datetime", format: "LT"}
+      - {label: "End Time", name: "endTime", widget: "datetime", format: "LT"}
+      - {label: "Summary", name: "summary", widget: "string"}
+      - {label: "Location", name: "location", widget: "relation", collection: "locations", searchFields: ["title"], valueField: "title"}
+  - name: "cancellations" # Used in routes, e.g., /admin/collections/blog
+    label: "Cancellations" # Used in the UI
+    folder: "_data/classes/cancellations" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    format: "json"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Class", name: "class", widget: "relation", collection: "weekly-classes", searchFields: ["title", "summary"], valueField: "title"}
+      - {label: "Date", name: "date", widget: "date"}
+  - name: "individual-classes" # Used in routes, e.g., /admin/collections/blog
+    label: "Individual Classes" # Used in the UI
+    folder: "_data/classes/individual" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    format: "json"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Start Time", name: "startTime", widget: "datetime", format: "LT"}
+      - {label: "End Time", name: "endTime", widget: "datetime", format: "LT"}
+      - {label: "Summary", name: "summary", widget: "string"}
+      - {label: "Location", name: "location", widget: "relation", collection: "locations", searchFields: ["title"], valueField: "title"}
