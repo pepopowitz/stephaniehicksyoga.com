@@ -9,7 +9,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "_includes/blog.pug"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tags - currently unused, but might be in the future. Keywords that describe this post. Separate multiple with commas - 'category 1, category 2, category 3'", name: "tags", widget: "list"}
       - {label: "Publish Date", name: "date", widget: "datetime"}

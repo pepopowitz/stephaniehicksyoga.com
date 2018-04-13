@@ -10,18 +10,24 @@ function dateToISO(str) {
 // .eleventy.js
 module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection('postsReversed', function(collection) {
-    return collection
-      .getFilteredByTag('post')
+    const result = collection
+      .getAll()
+      .filter(item => item.data.layout === 'blog')
       .reverse()
       .map(item => ({
         ...item,
         isoDate: dateToISO(item.date),
       }));
+    return result;
   });
 
   // copy over the upcoming classes json file, to be consumed as an "api" endpoint.
   eleventyConfig.addPassthroughCopy('_data/classes');
   eleventyConfig.addPassthroughCopy('admin');
+
+  eleventyConfig.addFilter('readableDate', dateObj => {
+    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
+  });
 
   return {
     templateFormats: ['md', 'pug', 'njk', 'png', 'jpg', 'gif', 'css', 'html'],
@@ -40,12 +46,18 @@ module.exports = function(eleventyConfig) {
     nunjucksFilters: {
       lastUpdatedDate: collection => {
         // Newest date in the collection
+        console.log('sjh', collection);
+        if (collection === undefined) {
+          return null;
+        }
         return dateToISO(collection[collection.length - 1].date);
       },
       rssDate: dateObj => {
         return dateToISO(dateObj);
       },
-
+      readableDate: dateObj => {
+        return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
+      },
       url: url => {
         // If your blog lives in a subdirectory, change this:
         let rootDir = '/blog/';

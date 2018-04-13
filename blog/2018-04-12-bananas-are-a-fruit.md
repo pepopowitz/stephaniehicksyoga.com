@@ -1,5 +1,5 @@
 ---
-layout: _includes/blog.pug
+layout: blog
 title: Bananas are a fruit!
 tags:
   - bananas
