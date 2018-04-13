@@ -11,10 +11,10 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "_includes/blog.pug"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Tags - currently unused, but might be in the future. Keywords that describe this post. Separate multiple with commas - 'category 1, category 2, category 3'", name: "tags", widget: "list"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Summary - a small paragraph that shows up when this post is listed with others", name: "body", widget: "markdown"}
+      - {label: "Summary - a small paragraph that shows up when this post is listed with others", name: "summary", widget: "markdown"}
   - name: "locations" # Used in routes, e.g., /admin/collections/blog
     label: "Locations" # Used in the UI
     folder: "_data/classes/locations" # The path to the folder where the documents are stored
