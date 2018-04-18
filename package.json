@@ -4,21 +4,36 @@
   "description": "Website for Stephanie Hicks Yoga.",
   "scripts": {
     "build": "npm run clean && gulp dist && eleventy",
-    "start":
-      "concurrently \"npm run sass\" \"eleventy --watch \" \"live-server ./_site\" -n SASS,ELEVENTY,SERVE -c bgBlue,bgGreen,bgYellow",
+    "prebuild": "babel-node ./_build/prebuild.js",
+    "start": "concurrently \"npm run sass\" \"eleventy --watch \" \"live-server ./_site\" -n SASS,ELEVENTY,SERVE -c bgBlue,bgGreen,bgYellow",
     "sass": "gulp",
-    "clean": "rimraf ./_site"
+    "clean": "rimraf ./_site",
+    "test": "jest",
+    "test-watch": "jest --watchAll"
   },
-  "keywords": ["Stephanie Hicks", "Yoga"],
+  "keywords": [
+    "Stephanie Hicks",
+    "Yoga"
+  ],
   "author": "Steven J Hicks",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.3.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1",
     "concurrently": "^3.5.1",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
+    "jest": "^22.4.3",
     "live-server": "^1.2.0",
     "luxon": "^1.0.0",
     "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "save-dev": "^2.0.0"
   }
 }
