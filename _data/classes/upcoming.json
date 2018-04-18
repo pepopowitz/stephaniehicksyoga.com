@@ -1,26 +1,511 @@
 [
   {
+    "title": "Wednesdays at NM Franklin",
     "location": "Optum Health, Franklin",
-    "date": "Wednesday, March 28",
-    "time": "4:45pm - 5:45pm",
-    "details": "Yoga after work"
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, April 17",
+    "dateRaw": "2018-04-17",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
   },
   {
-    "location": "Tosa Yoga",
-    "date": "Friday, March 30",
-    "time": "5:30am - 6:45am",
-    "details": "Level 2/3 Flow"
+    "location": "Tosa Yoga Center",
+    "locationUrl": "http://www.tosayoga.com/",
+    "date": "Friday, April 20",
+    "dateRaw": "2018-04-20",
+    "time": "10:47 AM - 11:47 AM",
+    "startTimeRaw": "10:47",
+    "summary": "Yoga for cool people"
   },
   {
-    "location": "TNT",
-    "date": "Monday, April 9",
-    "time": "9:55am - 10:45am",
-    "details": "Yoga for athletes"
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, April 24",
+    "dateRaw": "2018-04-24",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
   },
   {
-    "location": "TNT",
-    "date": "Tuesday, March 27",
-    "time": "6:10pm - 6:55pm",
-    "details": "Yoga for athletes"
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, May 1",
+    "dateRaw": "2018-05-01",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, May 8",
+    "dateRaw": "2018-05-08",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, May 15",
+    "dateRaw": "2018-05-15",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, May 22",
+    "dateRaw": "2018-05-22",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, May 29",
+    "dateRaw": "2018-05-29",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, June 5",
+    "dateRaw": "2018-06-05",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, June 12",
+    "dateRaw": "2018-06-12",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, June 19",
+    "dateRaw": "2018-06-19",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, June 26",
+    "dateRaw": "2018-06-26",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, July 3",
+    "dateRaw": "2018-07-03",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, July 10",
+    "dateRaw": "2018-07-10",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, July 17",
+    "dateRaw": "2018-07-17",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, July 24",
+    "dateRaw": "2018-07-24",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, July 31",
+    "dateRaw": "2018-07-31",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, August 7",
+    "dateRaw": "2018-08-07",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, August 14",
+    "dateRaw": "2018-08-14",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, August 21",
+    "dateRaw": "2018-08-21",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, August 28",
+    "dateRaw": "2018-08-28",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, September 4",
+    "dateRaw": "2018-09-04",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, September 11",
+    "dateRaw": "2018-09-11",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, September 18",
+    "dateRaw": "2018-09-18",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, September 25",
+    "dateRaw": "2018-09-25",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, October 2",
+    "dateRaw": "2018-10-02",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, October 9",
+    "dateRaw": "2018-10-09",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, October 16",
+    "dateRaw": "2018-10-16",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, October 23",
+    "dateRaw": "2018-10-23",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, October 30",
+    "dateRaw": "2018-10-30",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, November 6",
+    "dateRaw": "2018-11-06",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, November 13",
+    "dateRaw": "2018-11-13",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, November 20",
+    "dateRaw": "2018-11-20",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, November 27",
+    "dateRaw": "2018-11-27",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, December 4",
+    "dateRaw": "2018-12-04",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, December 11",
+    "dateRaw": "2018-12-11",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, December 18",
+    "dateRaw": "2018-12-18",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, December 25",
+    "dateRaw": "2018-12-25",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, January 1",
+    "dateRaw": "2019-01-01",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, January 8",
+    "dateRaw": "2019-01-08",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, January 15",
+    "dateRaw": "2019-01-15",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, January 22",
+    "dateRaw": "2019-01-22",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, January 29",
+    "dateRaw": "2019-01-29",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, February 5",
+    "dateRaw": "2019-02-05",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, February 12",
+    "dateRaw": "2019-02-12",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, February 19",
+    "dateRaw": "2019-02-19",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, February 26",
+    "dateRaw": "2019-02-26",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, March 5",
+    "dateRaw": "2019-03-05",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, March 12",
+    "dateRaw": "2019-03-12",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, March 19",
+    "dateRaw": "2019-03-19",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
+  },
+  {
+    "title": "Wednesdays at NM Franklin",
+    "location": "Optum Health, Franklin",
+    "locationUrl": "http://www.google.com",
+    "date": "Tuesday, March 26",
+    "dateRaw": "2019-03-26",
+    "time": "4:30 PM - 5:30 PM",
+    "startTimeRaw": "16:30",
+    "summary": "Yoga for accountants"
   }
 ]

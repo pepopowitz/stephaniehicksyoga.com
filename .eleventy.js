@@ -22,7 +22,7 @@ module.exports = function(eleventyConfig) {
   });
 
   // copy over the upcoming classes json file, to be consumed as an "api" endpoint.
-  eleventyConfig.addPassthroughCopy('_data/classes');
+  eleventyConfig.addPassthroughCopy('_data/classes/upcoming.json');
   eleventyConfig.addPassthroughCopy('admin');
 
   eleventyConfig.addFilter('readableDate', dateObj => {
