@@ -26,7 +26,7 @@ collections:
       - {label: "URL", name: "url", widget: "string"}
   - name: "weekly-classes" # Used in routes, e.g., /admin/collections/blog
     label: "Weekly Classes" # Used in the UI
-    folder: "_data/classes/weekly" # The path to the folder where the documents are stored
+    folder: "_data/classes/weekly-classes" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     format: "json"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -51,7 +51,7 @@ collections:
       - {label: "Date", name: "date", widget: "date"}
   - name: "individual-classes" # Used in routes, e.g., /admin/collections/blog
     label: "Individual Classes" # Used in the UI
-    folder: "_data/classes/individual" # The path to the folder where the documents are stored
+    folder: "_data/classes/individual-classes" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     format: "json"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
