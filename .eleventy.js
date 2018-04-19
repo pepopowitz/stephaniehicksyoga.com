@@ -24,6 +24,8 @@ module.exports = function(eleventyConfig) {
   // copy over the upcoming classes json file, to be consumed as an "api" endpoint.
   eleventyConfig.addPassthroughCopy('_data/classes/upcoming.json');
   eleventyConfig.addPassthroughCopy('admin');
+  eleventyConfig.addPassthroughCopy('static/img');
+  eleventyConfig.addPassthroughCopy('static/js');
 
   eleventyConfig.addFilter('readableDate', dateObj => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
@@ -46,7 +48,6 @@ module.exports = function(eleventyConfig) {
     nunjucksFilters: {
       lastUpdatedDate: collection => {
         // Newest date in the collection
-        console.log('sjh', collection);
         if (collection === undefined) {
           return null;
         }

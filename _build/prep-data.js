@@ -1,7 +1,7 @@
 import updateSchedule from './update-schedule';
 
 (async function() {
-  console.log('prebuilding!');
+  console.log('prepping data!');
 
   await updateSchedule();
 

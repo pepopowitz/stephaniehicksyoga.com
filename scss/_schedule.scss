@@ -19,6 +19,16 @@
       color: white;
       font-size: 1rem;
       border-bottom: 1px solid white;
+      a,
+      a:visited,
+      a:active {
+        color: white;
+        text-decoration: underline;
+      }
+      a:hover {
+        color: white;
+        text-decoration: none;
+      }
     }
   }
   @media screen and (min-width: $max-mobile-width) {
@@ -35,13 +45,13 @@
         border-right: 1px solid white;
       }
       .time {
-        width: 30%;
+        width: 26%;
       }
       .location {
-        width: 40%;
+        width: 37%;
       }
       .details {
-        width: 30%;
+        width: 37%;
       }
     }
   }

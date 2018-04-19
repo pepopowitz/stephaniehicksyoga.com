@@ -3,18 +3,16 @@
   "version": "1.0.0",
   "description": "Website for Stephanie Hicks Yoga.",
   "scripts": {
-    "build": "npm run clean && gulp dist && eleventy",
-    "prebuild": "babel-node ./_build/prebuild.js",
-    "start": "concurrently \"npm run sass\" \"eleventy --watch \" \"live-server ./_site\" -n SASS,ELEVENTY,SERVE -c bgBlue,bgGreen,bgYellow",
+    "build": "npm run clean && npm run prep-data && gulp dist && eleventy",
+    "prep-data": "babel-node ./_build/prep-data.js",
+    "start":
+      "concurrently \"npm run sass\" \"eleventy --watch \" \"live-server ./_site\" -n SASS,ELEVENTY,SERVE -c bgBlue,bgGreen,bgYellow",
     "sass": "gulp",
     "clean": "rimraf ./_site",
     "test": "jest",
     "test-watch": "jest --watchAll"
   },
-  "keywords": [
-    "Stephanie Hicks",
-    "Yoga"
-  ],
+  "keywords": ["Stephanie Hicks", "Yoga"],
   "author": "Steven J Hicks",
   "license": "ISC",
   "devDependencies": {

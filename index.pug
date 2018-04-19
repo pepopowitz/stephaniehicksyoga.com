@@ -11,14 +11,7 @@ mixin date(input)
     
 h1 Upcoming Schedule
 
-div.upcoming-classes
-  each upcomingClass in classes.upcoming
-    article.upcoming-class
-      h2.day !{upcomingClass.date}
-      div.class-details
-        h3.time !{upcomingClass.time}
-        h3.location !{upcomingClass.location}
-        h3.details !{upcomingClass.details}
+include _includes/schedule.ejs
 
 h1 Recent Posts 
 
