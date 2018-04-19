@@ -9,6 +9,7 @@ import moment from 'moment';
 import sortBy from 'lodash.sortby';
 
 import { nowUtc } from './clock';
+import { getDay, addDays } from 'date-fns';
 
 export default function(data) {
   const weeklyClasses = generateWeeklyClasses(data);
@@ -65,10 +66,28 @@ function getWeeklyClassesWithinRange(data) {
   return current;
 }
 
+const weekdays = {
+  0: 'Sunday',
+  1: 'Monday',
+  2: 'Tuesday',
+  3: 'Wednesday',
+  4: 'Thursday',
+  5: 'Friday',
+  6: 'Saturday',
+};
+
+function getDayOfFirstWeeklyClass(date, dayOfWeek) {
+  if (weekdays[getDay(date)] === dayOfWeek) {
+    return date;
+  }
+  return getDayOfFirstWeeklyClass(addDays(date, 1), dayOfWeek);
+}
+
 function expandWeeklyClass(weekly, locationUrls) {
   const endDate = weekly.endDate || addWeeks(parse(weekly.startDate), 5);
   const startDate = max(weekly.startDate, nowUtc());
-  const dates = eachDay(startDate, endDate, 7).slice(0, 50);
+  const firstClass = getDayOfFirstWeeklyClass(startDate, weekly.dayOfWeek);
+  const dates = eachDay(firstClass, endDate, 7).slice(0, 50);
 
   return dates.map(date => ({
     title: weekly.title,

@@ -13,6 +13,7 @@ export const values = {
 // all are wednesdays, except tomorrow.
 export const dates = {
   aWhileAgo: '2018-01-03',
+  monday: '2018-04-09',
   today: '2018-04-11',
   tomorrow: '2018-04-12',
   inTheFuture: '2018-05-02',

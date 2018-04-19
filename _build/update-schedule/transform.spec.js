@@ -121,6 +121,20 @@ describe('transform', () => {
         summary: values.summary,
       });
     });
+
+    it('generates weeklyClasses on the correct day of week', () => {
+      const now = dates.monday;
+      nowUtc.mockReturnValue(now);
+
+      const updates = {
+        locations: [aLocation()],
+        weeklyClasses: [aWeeklyClass()],
+      };
+
+      const result = transform(updates);
+
+      expect(result[0].dateRaw).toEqual('2018-04-11');
+    });
   });
 
   describe('cancellations', () => {
