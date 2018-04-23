@@ -32,7 +32,20 @@ module.exports = function(eleventyConfig) {
   });
 
   return {
-    templateFormats: ['md', 'pug', 'njk', 'png', 'jpg', 'gif', 'css', 'html'],
+    templateFormats: [
+      'md',
+      'pug',
+      'njk',
+      'png',
+      'jpg',
+      'gif',
+      'css',
+      'html',
+      'ico',
+      'svg',
+      'webmanifest',
+      'xml',
+    ],
     passthroughFileCopy: true,
     dir: {
       input: '.',
