@@ -20,11 +20,11 @@ $brand-green: #227100;
 $max-mobile-width: 700px;
 $max-tablet-width: 900px;
 
-$sans-serif: "Khula";
+$sans-serif: 'Khula';
 $serif: Merriweather;
 
-@import "_hugo.scss";
-@import "_layout.scss";
+@import '_hugo.scss';
+@import '_layout.scss';
 
 html,
 body {
@@ -132,6 +132,9 @@ p code {
     margin-top: 0;
     text-align: center;
   }
+  h3 {
+    margin-top: 1rem;
+  }
 }
 
 .sr-only {
@@ -179,5 +182,5 @@ article {
   }
 }
 
-@import "_blog.scss";
-@import "_schedule.scss";
+@import '_blog.scss';
+@import '_schedule.scss';
