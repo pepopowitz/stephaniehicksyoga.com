@@ -8,8 +8,7 @@ tags:
 date: '2018-07-24T21:28:20-05:00'
 summary: >-
   Here's my race recap from our most recent 5k-- a $5 5K in Gabriel Park,
-  Portland, OR. Read on and learn more about our latest destination race, a
-  hilly
+  Portland, OR. Read on and learn more about our latest destination race!
 ---
 It is hard to believe that a week ago we were still running and relaxing in Portland, OR, on a family trip to visit Steve’s sister. I was still able to get plenty of training in, even though it was a scheduled rest/recovery week. 
 
