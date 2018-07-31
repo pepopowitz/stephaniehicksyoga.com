@@ -8,7 +8,9 @@ layout: layout
 
 In addition to my weekly class schedule, I am also available for the following:
 
-* Corporate sessions
-* Yoga Workshops for Triathletes, Cyclists, and Runners
-* Yoga and Writing Workshops
-* Yoga for Kids and Teens (high interest days, Girl Scout Troops, etc.)
+- Corporate sessions
+- Yoga Workshops for Triathletes, Cyclists, and Runners
+- Yoga and Writing Workshops
+- Yoga for Kids and Teens (high interest days, Girl Scout Troops, etc.)
+
+Please contact me [by email](mailto:steph0517@yahoo.com) for more information.

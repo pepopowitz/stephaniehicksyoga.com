@@ -6,7 +6,7 @@ metaDescription: TODO - fill this in!
 
 # Contact
 
-I'd love for you to blah blah blah
+I'd love to hear from you. Connect with me here:
 
 ### Email
 

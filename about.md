@@ -10,7 +10,7 @@ layout: layout
 
 Stephanie's first yoga class in 1999 surprised her. She had heard about the benefits of yoga before, but didn't realize what an amazing effect it would have on her physically, mentally, emotionally and spiritually. After that first class she was hooked, but didn't find a consistent practice until after her oldest daughter was born in 2008. She loves how her practice on the mat transfers to other aspects of her life as a wife, mom, English teacher, triathlete, and coach. She completed her teacher training at Tosa Yoga Center in Wauwatosa in November 2017, and has attended multiple workshops and taken classes with respected teachers in field including Richard Freeman, Kathryn Budig, Amy Ippoliti, Gwen Lawrence, Rod Stryker, and Erica Mather.
 
-In her classes, she focuses on using poses to improve flexibility and strength, and to foster a sense of inner calm and relaxation. Stephanie's classes are thoughtfully crafted to leave her students feeling strong, peaceful, balanced, and full of self-love.
+In her classes, she focuses on using poses to improve flexibility and strength, and to foster a sense of inner calm and relaxation. Stephanie's classes are thoughtfully crafted to leave her students feeling strong, peaceful, and balanced.
 
 Stephanie donates a portion of her income to Milwaukee-area non-profit organizations that serve vulnerable populations, promote social justice, and protect the environment. Follow her blog to learn more about the organizations she supports.
 
