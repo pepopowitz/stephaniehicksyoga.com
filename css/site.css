@@ -1336,3 +1336,7 @@ h1:first-child + .content-article {
       width: 37%; }
     .upcoming-class .class-details .details {
       width: 37%; } }
+
+@media screen and (max-width: 900px) {
+  .upcoming-class .class-details {
+    margin-bottom: 3rem; } }

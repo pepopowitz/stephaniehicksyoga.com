@@ -55,4 +55,10 @@
       }
     }
   }
+
+  @media screen and (max-width: $max-tablet-width) {
+    .class-details {
+      margin-bottom: 3rem;
+    }
+  }
 }
