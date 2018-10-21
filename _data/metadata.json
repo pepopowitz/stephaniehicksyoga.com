@@ -1,0 +1,14 @@
+{
+  "title": "Stephanie Hicks Yoga",
+  "url": "https://stephaniehicksyoga.com/",
+  "feed": {
+    "filename": "atom.xml",
+    "path": "/atom.xml",
+    "url": "https://stephaniehicksyoga.com/atom.xml",
+    "id": "https://stephaniehicksyoga.com/"
+  },
+  "author": {
+    "name": "Stephanie Hicks",
+    "email": "steph0517@yahoo.com"
+  }
+}

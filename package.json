@@ -6,7 +6,9 @@
   "scripts": {
     "build": "npm run clean && npm run prep-data && gulp dist && eleventy",
     "prep-data": "babel-node ./_build/prep-data.js",
+    "content": "eleventy --serve",
     "start": "concurrently \"npm run sass\" \"eleventy --watch \" \"live-server ./_site\" -n SASS,ELEVENTY,SERVE -c bgBlue,bgGreen,bgYellow",
+    "start-new": "concurrently \"npm run sass\" \"eleventy --serve \" -n SASS,ELEVENTY -c bgBlue,bgGreen",
     "sass": "gulp",
     "clean": "rimraf ./_site",
     "test": "jest",
@@ -19,7 +21,7 @@
   "author": "Steven J Hicks",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.3.1",
+    "@11ty/eleventy": "^0.5.3",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^22.4.3",
@@ -32,6 +34,7 @@
     "gulp-sass": "^3.1.0",
     "jest": "^22.4.3",
     "live-server": "^1.2.0",
+    "lodash.orderby": "^4.6.0",
     "lodash.sortby": "^4.7.0",
     "luxon": "^1.0.0",
     "moment": "^2.22.1",

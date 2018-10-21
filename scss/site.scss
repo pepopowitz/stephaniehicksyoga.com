@@ -182,5 +182,10 @@ article {
   }
 }
 
+h3.read-more {
+  text-align: center;
+  color: $brand;
+}
+
 @import '_blog.scss';
 @import '_schedule.scss';

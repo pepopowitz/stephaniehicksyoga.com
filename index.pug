@@ -1,7 +1,7 @@
 ---
 layout: layout
 title: Stephanie Hicks Yoga
-metaDescription: TODO - fill this in!
+metaDescription: Stephanie Hicks Yoga
 ---
 mixin date(input)
     - var date = new Date(input)
@@ -13,9 +13,9 @@ h1 Upcoming Schedule
 
 include _includes/schedule.ejs
 
-h1 Recent Posts 
+h1 Recent Articles 
 
-each article in collections.postsReversed
+each article in collections.postsReversed.slice(0,5)
     article.content-article
         header
             h2
@@ -25,3 +25,6 @@ each article in collections.postsReversed
             p !{article.data.summary}
             a(href=article.url) Read about it!
             //p #{JSON.stringify(article)}
+
+h3.read-more
+  a(href="/blog") Read More Articles

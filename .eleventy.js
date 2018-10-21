@@ -1,4 +1,5 @@
 const { DateTime } = require('luxon');
+const orderBy = require('lodash.orderby');
 
 function dateToISO(str) {
   return DateTime.fromJSDate(str).toISO({
@@ -13,12 +14,11 @@ module.exports = function(eleventyConfig) {
     const result = collection
       .getAll()
       .filter(item => item.data.layout === 'blog')
-      .reverse()
       .map(item => ({
         ...item,
         isoDate: dateToISO(item.date),
       }));
-    return result;
+    return orderBy(result, 'isoDate', 'desc');
   });
 
   // copy over the upcoming classes json file, to be consumed as an "api" endpoint.
@@ -57,7 +57,6 @@ module.exports = function(eleventyConfig) {
     // Leading or trailing slashes are all normalized away, so don’t worry about it.
     // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
     // This is only used for URLs (it does not affect your file structure)
-    pathPrefix: '',
     nunjucksFilters: {
       lastUpdatedDate: collection => {
         // Newest date in the collection

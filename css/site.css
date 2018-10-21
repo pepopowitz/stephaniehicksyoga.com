@@ -1255,6 +1255,10 @@ article {
     border-radius: 50%;
     border: 3px solid #1b4151; }
 
+h3.read-more {
+  text-align: center;
+  color: #1b4151; }
+
 .content-article {
   margin: 1rem 0 1rem 0; }
   .content-article header > * {

@@ -1,7 +1,7 @@
 ---
 layout: layout
 title: Stephanie Hicks Yoga - Contact
-metaDescription: TODO - fill this in!
+metaDescription: Stephanie Hicks Yoga - Contact
 ---
 
 # Contact
