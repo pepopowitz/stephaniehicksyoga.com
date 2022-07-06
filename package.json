@@ -34,7 +34,7 @@
     "live-server": "^1.2.0",
     "lodash.sortby": "^4.7.0",
     "luxon": "^1.0.0",
-    "moment": "^2.22.1",
+    "moment": "^2.29.4",
     "rimraf": "^2.6.2"
   },
   "dependencies": {}
